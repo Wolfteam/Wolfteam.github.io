@@ -1,0 +1,20 @@
+.space-between-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-height: 180px !important;
+    height: 180px !important;
+}
+
+
+#mirainotes_privacy_div {
+    text-align: left;
+}
+
+.app-container {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
