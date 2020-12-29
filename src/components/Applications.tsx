@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import GithubApp from '../models/githubapp.model';
 import Application from './Application';
@@ -9,6 +9,7 @@ import TibiaInfo from '../assets/imgs/tibia_info.png';
 import TimeIt from '../assets/imgs/timeit.png';
 import CastIt from '../assets/imgs/casit.png';
 import MyExpenses from '../assets/imgs/myexpenses.png';
+import GenshinDb from '../assets/imgs/GenshinDb.png';
 
 const apps: GithubApp[] = [
     {
@@ -41,6 +42,12 @@ const apps: GithubApp[] = [
         img: TimeIt,
         link: 'https://github.com/Wolfteam/TimeIt'
     },
+    {
+        name: 'GenshinDb',
+        description: 'A Genshin Impact database kinda app',
+        img: GenshinDb,
+        link: 'https://github.com/Wolfteam/GenshinDb'
+    }
 ];
 
 function Applications() {
