@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faPaypal, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
@@ -26,9 +26,15 @@ function Contact() {
                             </a>
                         </li>
                         <li className="list-inline-item">
-                            <a href="mailto:mimo4325@gmail.com" className="btn btn-default btn-lg">
+                            <a href="mailto:miraisoft20@gmail.com" className="btn btn-default btn-lg">
                                 <FontAwesomeIcon icon={faEnvelope} fixedWidth />
                                 <span className="network-name">Mail</span>
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="https://paypal.me/wolfteam20" className="btn btn-default btn-lg">
+                                <FontAwesomeIcon icon={faPaypal} fixedWidth />
+                                <span className="network-name">Paypal</span>
                             </a>
                         </li>
                     </ul>
