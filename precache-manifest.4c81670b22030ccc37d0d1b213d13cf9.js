@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c882adb9958da9849e9a2b607a6776ef",
+    "revision": "3dad66daa982c0439e2b7300ea9f88f1",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "f43b86fe32ea43d06cc6",
+    "revision": "537e0d02f8740ffd978d",
     "url": "/static/css/main.ec48711b.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d82def17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f43b86fe32ea43d06cc6",
-    "url": "/static/js/main.46671c05.chunk.js"
+    "revision": "537e0d02f8740ffd978d",
+    "url": "/static/js/main.a47e84b8.chunk.js"
   },
   {
     "revision": "35f710bd27dbd3ad6075",
     "url": "/static/js/runtime-main.fc828d1e.js"
   },
   {
-    "revision": "d4c989c2d058ae2ce56b327cbc5bee05",
-    "url": "/static/media/GenshinDb.d4c989c2.png"
+    "revision": "249b02da67237df6efc508d3d6677d1d",
+    "url": "/static/media/Shiori.249b02da.png"
   },
   {
     "revision": "f24b778f3d52714cbc7db180d8c81888",
