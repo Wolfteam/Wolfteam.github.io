@@ -9,7 +9,7 @@ import TibiaInfo from '../assets/imgs/tibia_info.png';
 import TimeIt from '../assets/imgs/timeit.png';
 import CastIt from '../assets/imgs/casit.png';
 import MyExpenses from '../assets/imgs/myexpenses.png';
-import GenshinDb from '../assets/imgs/GenshinDb.png';
+import Shiori from '../assets/imgs/Shiori.png';
 
 const apps: GithubApp[] = [
     {
@@ -43,10 +43,10 @@ const apps: GithubApp[] = [
         link: 'https://github.com/Wolfteam/TimeIt'
     },
     {
-        name: 'GenshinDb',
+        name: 'Shiori',
         description: 'A Genshin Impact database kinda app',
-        img: GenshinDb,
-        link: 'https://github.com/Wolfteam/GenshinDb'
+        img: Shiori,
+        link: 'https://github.com/Wolfteam/Shiori'
     }
 ];
 
