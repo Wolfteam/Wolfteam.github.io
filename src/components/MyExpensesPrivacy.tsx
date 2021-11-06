@@ -177,7 +177,7 @@ function MyExpensesPrivacy() {
                     <h2>Contact Us</h2>
                     <p>If you have any questions about this Privacy Policy, please contact us:</p>
                     <ul>
-                        <li>By email: mimo4325@gmail.com</li>
+                        <li>By email: miraisoft20@gmail.com</li>
                         <li>By visiting this page on our website: https://github.com/Wolfteam/MyExpenses</li>
                     </ul>
                 </div>

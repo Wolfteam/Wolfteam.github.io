@@ -2,6 +2,7 @@ import React from 'react'
 import { Accordion, Button, Col, Container, Row } from 'react-bootstrap';
 import MiraiNotesPrivacy from './MiraiNotesPrivacy';
 import MyExpensesPrivacy from './MyExpensesPrivacy';
+import ShioriPrivacy from './ShioriPrivacy';
 
 function Privacies() {
     return <section id="privacy_policy" className="content-section text-center">
@@ -21,6 +22,10 @@ function Privacies() {
                         <Accordion.Toggle as={Button} variant="link" eventKey="1" className="btn btn-default btn-lg">
                             My Expenses Policy
                         </Accordion.Toggle>
+                        {' '}
+                        <Accordion.Toggle as={Button} variant="link" eventKey="2" className="btn btn-default btn-lg">
+                            Shiori for Genshin Policy
+                        </Accordion.Toggle>
                     </Col>
                 </Row>
                 <Row>
@@ -30,6 +35,9 @@ function Privacies() {
                         </Accordion.Collapse>
                         <Accordion.Collapse eventKey="1">
                             <MyExpensesPrivacy />
+                        </Accordion.Collapse>
+                        <Accordion.Collapse eventKey="2">
+                            <ShioriPrivacy />
                         </Accordion.Collapse>
                     </Col>
                 </Row>

@@ -43,7 +43,7 @@ const apps: GithubApp[] = [
         link: 'https://github.com/Wolfteam/TimeIt'
     },
     {
-        name: 'Shiori',
+        name: 'Shiori for Genshin',
         description: 'A Genshin Impact database kinda app',
         img: Shiori,
         link: 'https://github.com/Wolfteam/Shiori'
