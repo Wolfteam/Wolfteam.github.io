@@ -1,5 +1,6 @@
 import React from 'react'
 import { Accordion, Button, Col, Container, Row } from 'react-bootstrap';
+import CastItPrivacy from './CastItPrivacy';
 import MiraiNotesPrivacy from './MiraiNotesPrivacy';
 import MyExpensesPrivacy from './MyExpensesPrivacy';
 import ShioriPrivacy from './ShioriPrivacy';
@@ -26,6 +27,10 @@ function Privacies() {
                         <Accordion.Toggle as={Button} variant="link" eventKey="2" className="btn btn-default btn-lg">
                             Shiori for Genshin Policy
                         </Accordion.Toggle>
+                        {' '}
+                        <Accordion.Toggle as={Button} variant="link" eventKey="3" className="btn btn-default btn-lg">
+                            CastIt
+                        </Accordion.Toggle>
                     </Col>
                 </Row>
                 <Row>
@@ -38,6 +43,9 @@ function Privacies() {
                         </Accordion.Collapse>
                         <Accordion.Collapse eventKey="2">
                             <ShioriPrivacy />
+                        </Accordion.Collapse>
+                        <Accordion.Collapse eventKey="3">
+                            <CastItPrivacy />
                         </Accordion.Collapse>
                     </Col>
                 </Row>

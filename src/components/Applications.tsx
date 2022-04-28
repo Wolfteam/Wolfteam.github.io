@@ -37,12 +37,6 @@ const apps: GithubApp[] = [
         link: 'https://github.com/Wolfteam/TibiaInfo'
     },
     {
-        name: 'TimeIt',
-        description: 'A timer app made with Xamarin.Forms (Android & UWP).',
-        img: TimeIt,
-        link: 'https://github.com/Wolfteam/TimeIt'
-    },
-    {
         name: 'Shiori for Genshin',
         description: 'A Genshin Impact database kinda app',
         img: Shiori,

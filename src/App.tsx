@@ -17,11 +17,6 @@ function App() {
       <Applications />
       <Privacies />
       <Contact />
-      <footer style={{ padding: '100px 0' }}>
-        <div className="container text-center">
-          <p style={{ display: 'none' }}>Powered by <a href="http://startbootstrap.com/template-overviews/grayscale/">Start Bootstrap</a></p>
-        </div>
-      </footer>
     </Fragment>
   );
 }

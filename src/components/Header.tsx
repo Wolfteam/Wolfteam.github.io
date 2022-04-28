@@ -8,7 +8,7 @@ function Header() {
         <div className="intro-body">
             <Container>
                 <Row>
-                    <h2>.Net apps made with love :)<FontAwesomeIcon icon={faHeart} size="2x" color="red" />
+                    <h2>.Net / Flutter apps made with love :)<FontAwesomeIcon icon={faHeart} size="2x" color="red" />
                     </h2>
                 </Row>
             </Container>
